@@ -86,7 +86,7 @@
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
       <MinimalRebuild>false</MinimalRebuild>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;LIBXML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
@@ -96,7 +96,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>libxml2_a.lib;wsock32.lib;libminizip.lib;libboost_regex-mt-x32-gd.lib;libboost_filesystem-mt-x32-gd.lib;libboost_system-mt-x32-gd.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libxml2.lib;wsock32.lib;minizip.lib;libboost_regex-mt-x32-gd.lib;libboost_filesystem-mt-x32-gd.lib;libboost_system-mt-x32-gd.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\stage\packages\lib\debug;..\..\external-libs\tinyxml\lib\vc10;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
@@ -120,7 +120,7 @@
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
       <MinimalRebuild>false</MinimalRebuild>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;LIBXML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
@@ -130,7 +130,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>libxml2_a.lib;wsock32.lib;libminizip.lib;libboost_regex-mt-x64-gd.lib;libboost_filesystem-mt-x64-gd.lib;libboost_system-mt-x64-gd.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libxml2.lib;wsock32.lib;minizip.lib;libboost_regex-mt-x64-gd.lib;libboost_filesystem-mt-x64-gd.lib;libboost_system-mt-x64-gd.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\stage\packages\lib\debug;..\..\external-libs\tinyxml\lib\vc10;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
@@ -151,7 +151,7 @@
       <DebugInformationFormat>
       </DebugInformationFormat>
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;LIBXML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
@@ -161,7 +161,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>libxml2_a.lib;zlib.lib;wsock32.lib;libminizip.lib;libboost_regex-mt-x32.lib;libboost_filesystem-mt-x32.lib;libboost_system-mt-x32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libxml2.lib;zlib.lib;wsock32.lib;minizip.lib;libboost_regex-mt-x32.lib;libboost_filesystem-mt-x32.lib;libboost_system-mt-x32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\stage\packages\lib\release;..\..\external-libs\tinyxml\lib\vc10;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
@@ -183,7 +183,7 @@
       <DebugInformationFormat>
       </DebugInformationFormat>
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_SECURE_NO_DEPRECATE;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;LIBXML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
@@ -193,7 +193,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>libxml2_a.lib;zlib.lib;wsock32.lib;libminizip.lib;libboost_regex-mt-x64.lib;libboost_filesystem-mt-x64.lib;libboost_system-mt-x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libxml2.lib;zlib.lib;wsock32.lib;minizip.lib;libboost_regex-mt-x64.lib;libboost_filesystem-mt-x64.lib;libboost_system-mt-x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\stage\packages\lib\release;..\..\external-libs\tinyxml\lib\vc10;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
